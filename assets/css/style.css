@@ -1,0 +1,238 @@
+.navbar-brand {
+  font-size: 24px;
+  color: #3a2a23;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.home-content {
+  margin-top: 120px;
+}
+
+.home-display {
+  max-width: 495px;
+  font-weight: 700;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 60px;
+  color: #3a2a23;
+  line-height: 90px;
+}
+
+.btn-home {
+  margin-top: 40px;
+  width: 197px;
+  height: 73px;
+}
+
+.link-home {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #efd9bf;
+  color: #3a2a23;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 25px 50px;
+  cursor: pointer;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.text-display {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  font-weight: 500;
+  color: #888888;
+  max-width: 375px;
+  line-height: 30px;
+}
+
+.about {
+  margin-top: 120px;
+}
+
+.about-content {
+  margin-top: 180px;
+}
+
+.about-header {
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #bf996d;
+}
+
+.about-title {
+  margin-top: 30px;
+  font-size: 32px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  color: #3a2a23;
+  line-height: 50px;
+  max-width: 320px;
+}
+
+.about-text {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  color: #888888;
+  max-width: 475px;
+}
+
+.about-ornament {
+  width: 10px;
+  height: 500px;
+  background-color: #e0c3a0;
+}
+
+.testimonial {
+  margin-top: 120px;
+}
+
+.testi-header {
+  font-size: 21px;
+  color: #bf996d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.testi-title {
+  font-size: 30px;
+  color: #3a2a23;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+}
+
+.blog {
+  margin-top: 120px;
+}
+
+.blog-header {
+  font-size: 21px;
+  color: #bf996d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.blog-title {
+  font-size: 30px;
+  color: #3a2a23;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+}
+
+.card-title {
+  font-size: 18px;
+  font-family: "Frank Ruhl Libre", serif;
+  color: #3a2a23;
+  font-weight: 600;
+  line-height: 30px;
+  height: 50px;
+}
+
+.card-text {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #888888;
+  line-height: 30px;
+}
+
+.blog-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3a2a23;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.footer {
+  margin-top: 120px;
+  background-color: #efd9bf;
+}
+
+.footer-title {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Frank Ruhl Libre", serif;
+  color: #3a2a23;
+  font-weight: 600;
+}
+
+.footer-text {
+  color: #3a2a23;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+}
+
+.link-title {
+  color: #3a2a23;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.link-footer {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #3a2a23;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #efd9bf; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: var(--menu-font);
+  font-weight: var(--font-medium);
+  font-family: var(--font-1);
+  color: var(--display-color);
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
